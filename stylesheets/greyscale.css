@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../images/code-wallpaper-38-798x350.jpg) no-repeat bottom center scroll;
+    background: url(../images/intro.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -250,13 +250,10 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
-}
-
-.download-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../images/code-wallpaper-38-798x350.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
