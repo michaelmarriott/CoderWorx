@@ -248,7 +248,7 @@ a:focus {
     }
 }
 
-.content-section {
+.about-section {
     padding-top: 100px;
     width: 100%;
     padding: 50px 0;
@@ -259,6 +259,10 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.content-section {
+    padding-top: 100px;
 }
 
 #map {
