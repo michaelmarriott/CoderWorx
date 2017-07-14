@@ -60,18 +60,7 @@
 			data.password = $("#inputPassword").val();
 			data.isactive = true;
 			
-				$.ajax({
-				  headers: { 'Access-Control-Allow-Credentials': true },
-				  headers: { 'Access-Control-Allow-Origin': '*' },
-				  crossDomain: true,
-				  method: "PUT",
-				  url: "https://4tuxd5nlji.execute-api.us-west-2.amazonaws.com/Prod",
-				  data: data
-				})
-				  .done(function( msg ) {
-					alert( "Data Saved: " + msg );
-				  });
-				  
+			
   
           
         });
