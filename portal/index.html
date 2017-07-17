@@ -32,10 +32,10 @@
         <label for="inputPassword" class="sr-only">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required/>
 	      
-        <button id="butCallAjax" class="btn btn-lg btn-primary btn-block">Register Device</button>
       </form>
 	    
-		<div id="message"></div>
+        <button id="butCallAjax" class="btn btn-lg btn-primary btn-block">Register Device</button>
+	<div id="message"></div>
     </div> <!-- /container -->
 
 <div id="footer">
@@ -68,7 +68,7 @@
 				  data: data
 				})
 				  .done(function( msg ) {
-				 $("#message").val("done");
+				 	$("#message").val("Submitted");
 					console.log( "Data Saved: " + msg );
 				  });
 				  	
