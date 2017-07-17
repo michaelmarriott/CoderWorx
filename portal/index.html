@@ -60,7 +60,7 @@
 			data.username = $("#inputUsername").val();
 			data.password = $("#inputPassword").val();
 			data.isactive = true;
-			
+			$("#message").html("submited");
 			$.ajax({
 				  crossDomain: true,
 				  method: "POST",
@@ -72,7 +72,7 @@
 				}
 			      );
 				
-				  	
+					  	
 		//"https://aurhgo9bdb.execute-api.us-west-2.amazonaws.com/prod/Dominio",
 		//"https://4tuxd5nlji.execute-api.us-west-2.amazonaws.com/Prod",
   
