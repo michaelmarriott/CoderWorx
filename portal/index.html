@@ -24,7 +24,7 @@
     <div class="container">
 
       <form class="form-signin">
-        <h2 class="form-signin-heading">Register your IOT device</h2>
+,        <h2 class="form-signin-heading">Register your IOT device</h2>
 		<label for="inputSerial" class="sr-only">Serial Code</label>
         <input type="text" id="inputSerial" class="form-control" placeholder="IOT serial" required autofocus/>
         <label for="inputUsername" class="sr-only">Username</label>
@@ -65,11 +65,15 @@
 				  crossDomain: true,
 				  method: "POST",
 				   url: "https://aurhgo9bdb.execute-api.us-west-2.amazonaws.com/prod/Dominio",
-				  data: data
-				})
+				   data: data,
+				    success: function(html){
+					$("#message").html("Submitted");
+				    }
+
+				}
+			      )
 				  .done(function( msg ) {
-				 	$("#message").val("Submitted");
-					console.log( "Data Saved: " + msg );
+				 	
 				  });
 				  	
 		//"https://aurhgo9bdb.execute-api.us-west-2.amazonaws.com/prod/Dominio",
