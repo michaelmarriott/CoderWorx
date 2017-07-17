@@ -4,10 +4,12 @@ body {
 
 .button{
   max-width: 430px;
+  text-align:center;
 }
 
 button{
   max-width: 430px;
+  text-align:center;
 }
 .container {
   padding-top: 40px;
