@@ -66,15 +66,12 @@
 				  method: "POST",
 				   url: "https://aurhgo9bdb.execute-api.us-west-2.amazonaws.com/prod/Dominio",
 				   data: data,
-				    success: function(html){
+				   success: function(data){
 					$("#message").html("Submitted");
 				    }
-
 				}
-			      )
-				  .done(function( msg ) {
-				 	$("#message").html("Submitted");
-				  });
+			      );
+				
 				  	
 		//"https://aurhgo9bdb.execute-api.us-west-2.amazonaws.com/prod/Dominio",
 		//"https://4tuxd5nlji.execute-api.us-west-2.amazonaws.com/Prod",
